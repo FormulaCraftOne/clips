@@ -1,3 +1,5 @@
 title: FormulaCraftOne
 collections:
-  - clips
+  clips:
+    output: true
+    permalink: /:name
