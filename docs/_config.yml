@@ -1,4 +1,5 @@
 title: FormulaCraftOne
+baseurl: clips
 collections:
   clips:
     output: true
