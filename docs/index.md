@@ -1,5 +1,5 @@
 {% for clip in site.clips %}
-[clip.title](clip.url)
+[{{ clip.title }}]({{ clip.url }})
 
 
 {% endfor %}
