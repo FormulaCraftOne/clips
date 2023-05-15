@@ -4,7 +4,7 @@
 
 You only need two things:
 1. Any public link to a mp4 clip. GitHub releases is great for hosting large files publicly so the instructions uses that, but you can host it anywhere.
-2. A `<uniquename>.md` file in the `docs/_clips` folder of the docs branch, with the following frontmatter accordingly filled-in:
+2. A `<uniquename>.md` file in the `docs/_clips` folder of the docs branch, with the following frontmatter accordingly filled-in (or follow the examples of the existing files in there):
 
 ```
 ---
