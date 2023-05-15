@@ -9,11 +9,11 @@ You only need two things:
 ```
 ---
 layout: video
-src: "<url to mp4 file>"
-width: "<video width in px>"
-height: "<video height in px>"
-title: "<title of the clip -- this line is optional>"
-description: "<description for the clip -- this line is optional>"
+src: "url to mp4 file"
+width: "video width in px"
+height: "video height in px"
+title: "title of the clip -- this line is optional"
+description: "description for the clip -- this line is optional"
 ---
 ```
 
