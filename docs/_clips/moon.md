@@ -1,6 +1,6 @@
 ---
 layout: video
-src: "<https://github.com/FormulaCraftOne/clips/releases/download/moon-video/moon.mp4>"
+src: "https://github.com/FormulaCraftOne/clips/releases/download/moon-video/moon.mp4"
 width: "<1920>"
 height: "<1080>"
 title: "<moon>"
