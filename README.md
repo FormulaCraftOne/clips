@@ -36,7 +36,7 @@ Do please make sure your created filename is unique, or you'll overwrite the exi
 - go to https://github.com/FormulaCraftOne/clips/tree/docs/docs/_clips
 - click on the "Add file" dropdown and select "Create new file".
 - at the "Name your file..." field, put in a unique filename followed by `.md` (a quick way to get a short and likely-unique random filename is copying the 7-digit hex of the most recent commit), for example `d69fd20.md`
-- fill in the frontmatter as described in the [Minimal Instructions](#minimal-instructions) section, with the src field being the link to your mp4 file attached in step 1.
+- fill in the frontmatter as described in the [Minimal Instruction](#minimal-instruction) section, with the src field being the link to your mp4 file attached in step 1.
 - Click "Commit changes...", make sure that it's committing to the `docs` branch, and click "Commit Changes" to confirm.
 
 Wait for GitHub to finish rebuilding the website, you will see that it has completed when a green checkmark appears next to the most recent commit in the docs branch. Your clip will now be available at `https://formulacraftone.github.io/clips/<uniquename>` where `<uniquename>` is the filename (without the .md part) you specified in step 2.
