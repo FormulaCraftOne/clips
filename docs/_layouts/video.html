@@ -6,8 +6,12 @@
 <meta property="og:video:url" content="{{page.src}}" />
 <meta property="og:video:secure_url" content="{{page.src}}" />
 <meta property="og:video:type" content="video/mp4" />
+{% if page.width %}
 <meta property="og:video:width" content="{{page.width}}" />
+{% endif %}
+{% if page.height %}
 <meta property="og:video:height" content="{{page.height}}" />
+{% endif %}
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="{{page.description}}" />
