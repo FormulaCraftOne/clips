@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en_US">
 <head>
-<title>{{page.title}}</title>
-<meta property="og:video" content="{{page.src}}" />
-<meta property="og:video:url" content="{{page.src}}" />
-<meta property="og:video:secure_url" content="{{page.src}}" />
-<meta property="og:video:type" content="video/mp4" />
-{% if page.width %}
-<meta property="og:video:width" content="{{page.width}}" />
-{% endif %}
-{% if page.height %}
-<meta property="og:video:height" content="{{page.height}}" />
-{% endif %}
-<meta property="og:title" content="{{page.title}}" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:description" content="{{page.description}}" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:type" content="video" />  
+  <title>{{page.title}}</title>
+  <meta property="og:video" content="{{page.src}}" />
+  <meta property="og:video:url" content="{{page.src}}" />
+  <meta property="og:video:secure_url" content="{{page.src}}" />
+  <meta property="og:video:type" content="video/mp4" />
+  {% if page.width %}
+  <meta property="og:video:width" content="{{page.width}}" />
+  {% endif %}
+  {% if page.height %}
+  <meta property="og:video:height" content="{{page.height}}" />
+  {% endif %}
+  <meta property="og:title" content="{{page.title}}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="{{page.description}}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="video" />  
 </head>
-<video controls="controls" style="width:100%;object-fit:contain;">
-  <source src="{{page.src}}" type="video/mp4"></source>
-</video>
-{{ content }}
+<body style="background-color:black;color:white;font-family:monospace">
+  <video controls="controls" style="width:100%;object-fit:contain;">
+    <source src="{{page.src}}" type="video/mp4"></source>
+  </video>
+  <h1>{{page.title}}</h1>
+  <p>{{page.description}}</p>
+  {{ content }}
+</body>
 </html>
